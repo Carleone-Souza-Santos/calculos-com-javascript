@@ -13,7 +13,7 @@
     function somarValores(){                                                       // função Somar.
         let s1 = parseInt(document.getElementById("txt3").value);                  // id passado para let s1 aplicando parseint para transformar string em number inteiro.
         let s2 = parseInt(document.getElementById("txt4").value);                  // id passado para let s2 aplicando parseint para transformar string em number inteiro.
-        let s3 = s1 + s2;                                                          // s3 recebe a subtração de (s1 + s2).
+        let s3 = s1 + s2;                                                          // s3 recebe a soma de (s1 + s2).
         alert(s3);                                                                 // apresenta na tela um alert apresentando o resultado da Soma.
         let valorfinal = document.write("O valor será este na soma = ", s3);       // valorfinal recebe o valor da soma que está na s3 e apresenta em uma nova tela.
     }
