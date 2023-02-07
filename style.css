@@ -1,0 +1,37 @@
+
+*{
+    margin: 5px;
+    padding: 5px;
+}
+
+p{
+font-size: 25px;
+color:red;
+}
+
+fieldset{
+    border-radius: 15px;
+}
+
+
+input{
+    border-radius: 20px;
+    font-size: 20px;
+}   
+
+button{
+    height:25px ;
+    width: 70px;
+    transition: 1s ease;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: chocolate;
+    border: none;
+}
+
+button:hover{
+    transition: 1s ease;
+    background-color: rgb(133, 68, 23);
+    border: 10px;
+}
